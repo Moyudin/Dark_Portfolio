@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Love+Ya+Like+A+Sister&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+body{
+    scroll-behavior: smooth;
+}
+.NAVBAR{
+    background-color: #292941;
+    font-family: 'Abril Fatface', serif;
+}
+@media screen and (min-width:991px){
+    .navbar-nav .nav-link.selected{
+      border-bottom: 1px ridge rgb(255, 238, 0);
+    }
+    .NAVBAR{
+        /* position: fixed; */
+        position: fixed;
+        width: 100%;
+        z-index: 1000;
+    }
+    .card:hover{
+        transform: scale(1.1);
+    transition: transform 0.7s;  
+    }
+  }
+.head-text{
+    font-family: 'Love Ya Like A Sister', cursive;
+    color: rgb(255, 238, 0);
+}
+.section-bg{
+    background-color: #07071F;
+}
+.img-logo:hover {
+    transform: scale(1.3);
+    transition: transform 0.7s;  
+}
+.button-R{
+    border: 1px solid #FFEE00 ;
+    color: white;
+}
+.button-R:hover{
+    box-shadow: 0 0 15px 2px #FFEE00;
+    color: white;
+    background-color: #0A0A22;
+    border: solid white;
+}
+.ABOUT{
+    background-color: #0A0A22;
+}
+.button-RC:hover {
+    transform: scale(1.1);
+    transition: transform 0.5s;
+}
+.SKILLS{
+    background-color: #07071F;
+}
+.PORTFOLIO{
+    background-color: #0A0A22;
+}
