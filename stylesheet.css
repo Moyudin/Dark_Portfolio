@@ -2,6 +2,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
 body{
     scroll-behavior: smooth;
+    background-color: #07071F;
+
 }
 .NAVBAR{
     background-color: #292941;
@@ -10,12 +12,6 @@ body{
 @media screen and (min-width:991px){
     .navbar-nav .nav-link.selected{
       border-bottom: 1px ridge rgb(255, 238, 0);
-    }
-    .NAVBAR{
-        /* position: fixed; */
-        position: fixed;
-        width: 100%;
-        z-index: 1000;
     }
     .card:hover{
         transform: scale(1.1);
@@ -56,3 +52,8 @@ body{
 .PORTFOLIO{
     background-color: #0A0A22;
 }
+.FOOTER{
+    background-color: #292941;
+    font-family: 'Abril Fatface', serif;
+}
+  
